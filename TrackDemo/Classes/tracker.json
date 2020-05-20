@@ -1,0 +1,23 @@
+[
+    {
+        "hookClass" : "ViewController",
+        "hookMethod": "buttonAciton1:",
+        "events": ["view_button1_click"],
+        "types" : [2],
+        "refers": [{
+            "referpage"  : "article_detail",
+            "article_id" : "self.articleId",
+            "from"       : "0"
+        }]
+    },
+    {
+        "hookClass" : "ViewController",
+        "hookMethod": "viewDidLoad",
+        "events": ["view_didLoad_show"],
+        "types" : [1],
+        "refers": [{
+            "animated"  : "#0",
+            "article_id" : "123",
+        }]
+    }
+]
